@@ -1,27 +1,31 @@
-//Q5: Write a program to convert temperature from Celsius to Fahrenheit.
+//Q6: Write a program to swap two numbers using a third variable.
 
 /*
 Sample Test Cases:
 Input 1:
-0
+3 5
 Output 1:
-Fahrenheit=32
+After swap: 5 3
 
 Input 2:
-100
+-1 1
 Output 2:
-Fahrenheit=212
+After swap: 1 -1
 
 */
 #include <stdio.h>
+
 int main()
 {
-    float temp;//temperatue in celsius
-    printf("ENTER THE TEMPERATURE IN DEGREE CELSIUS.\n");
-    scanf("%f", &temp);
-    float tempf;//temperature in ferenhite 
-    tempf = (9.0/5.0) * temp + 32;
-    printf("THE TEMPERATURE IN FERENHITE IS %f\n", tempf);
+    int n1, n2, temp;//temp being the temprary variable to swap numbers
+    printf("ENTER THE TWO NUMBERS TO BE SWAPED..");
+    scanf("%d %d", &n1, &n2);
+
+    temp = n1;
+    n1 = n2;
+    n2 = temp;
+
+    printf("After swap: %d %d\n", n1, n2);
 
     return 0;
 }
