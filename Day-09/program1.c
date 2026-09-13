@@ -50,3 +50,4 @@ printf("ENTER THE VARIABLE OF A QUADERATIC EQUATION");
 
     return 0;
 }
+// completed
