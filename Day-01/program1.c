@@ -10,3 +10,4 @@ int main()
     printf("THE SUM OF TWO NUMBERS IS %d\n", sum);
     return 0;
 }
+// completed
