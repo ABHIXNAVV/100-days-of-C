@@ -27,3 +27,5 @@ int main()
     printf("THE PERIMETER OF RECTANGLE IS %f\n", perimeter);
     return 0;
 }
+
+// completed
